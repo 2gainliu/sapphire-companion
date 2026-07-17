@@ -58,7 +58,9 @@ Embeddings should be treated as rebuildable cache data, not as the canonical por
 - `upstream`: `https://github.com/ddxfish/sapphire.git`
 - local deployment directory: `D:\\heait-sapphire`
 - runtime data directory: the repository's `user\\` directory, excluded by `.gitignore`
-- local start command: `powershell -ExecutionPolicy Bypass -File D:\\heait-sapphire\\tools\\start-heait.ps1`
+- local start command: double-click `D:\\heait-sapphire\\start-heait.bat`
+- PowerShell start command: `powershell -ExecutionPolicy Bypass -File D:\\heait-sapphire\\tools\\start-heait.ps1`
+- local browser URL: `http://127.0.0.1:8073` (the local profile binds only to loopback)
 
 When changing this project, verify that no user data or secrets are staged, run the relevant checks, commit intentionally, and push the completed change to the project repository.
 
