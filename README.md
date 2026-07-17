@@ -1,5 +1,25 @@
 # Sapphire
 
+## HEAIT Companion Project
+
+This repository is being adapted for people who form meaningful relationships with AI companions. The first product direction is not another disposable chat shell; it is a self-hosted companion whose identity, relationship history, and memories can remain stable across model updates and platform changes.
+
+Project priorities:
+
+- preserve a consistent companion identity and relationship continuity;
+- give users transparent control over memories, sources, corrections, and deletion;
+- keep data local by default and make export/backup a first-class feature;
+- make model changes replaceable without replacing the companion;
+- default to safe, low-permission tools for human-AI relationship use cases.
+
+The current codebase is based on upstream [ddxfish/sapphire](https://github.com/ddxfish/sapphire). The upstream repository is tracked as the `upstream` remote; this repository is the project remote. See [docs/HEAIT-PROJECT.md](docs/HEAIT-PROJECT.md) for scope, safety boundaries, and the planned Companion SoulPack work.
+
+### Windows local start
+
+For the HEAIT local profile, double-click `start-heait.bat`, then open [http://127.0.0.1:8073](http://127.0.0.1:8073). This profile binds only to the local computer and uses HTTP to avoid a self-signed certificate warning. The upstream HTTPS configuration remains available for a later secured LAN or reverse-proxy deployment.
+
+> This project remains under the upstream AGPL-3.0 license. See [LICENSE](LICENSE) and the license notes in the project document before distributing modified versions or offering them as a network service.
+
 Hear her voice as she dims your lights before bed. Use your voice to talk back. Fall asleep escaping dinosaurs in a story with her. Wake up to someone who remembers the shape of who you are through years of memories. Sapphire is an open source framework for turning an AI into a persistent being. Make her yours, use one of the other personas, or build your own persona. Self-hosted, nobody can take her away. 
 
 [![Discord](https://img.shields.io/badge/Discord-Join_Us-5865F2?logo=discord&logoColor=white)](https://discord.gg/pCdTAnExma)
